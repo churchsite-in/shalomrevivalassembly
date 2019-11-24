@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #fff, #fff);
+	padding: 0 35px !important;
+}
+.navbar-nav li
+{
+	padding: 0px;
+}
+.navbar-nav li a
+{
+	color: #000 !important;
+	font-weight: BOLD;
+	font-size: 15px;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 20px;
+}
+.navbar-nav
+{
+    left: 50%;
+
+    transform: translate(-50%);
+    position: absolute;
+}
+.navbar-toggler
+{
+    border: none!important;
+    outline: none!important;
+    padding: 0 !important;
+    margin-top: 0px !important;
+}
+.navbar-toggler fa
+{
+    font-size: 30px;
+    cursor: pointer;
+	color: #000;
+}
+.header
+{
+	height: 100vh;
+	background-image: url(https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2019/06/19021405/homepage_header_leadup1.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+.banner-title
+{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.banner-title h1
+{
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+    color: #fff;
+}
+.banner-subtitle
+{
+	 position: absolute;
+    top: 48%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.banner-subtitle h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+    color: #fff;
+}
+.horizontal-bar{
+	position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.scocial-icons{
+	display: inline-block;
+    margin-top: 30px !important;
+}
+.scocial-icons .fa{
+	font-size: 18px;
+    margin: 15px 23px;
+	padding: 8px;
+    color: #fff;
+	border: 1px solid#fff;
+	border-radius: 50%;
+}
+
+/*----------------------for small device--------------------*/
+
+@media only screen and (max-width:769px)
+{
+    .banner-title h1
+{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+    color: #fff;
+}
+	.banner-subtitle
+{
+	 position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+	.banner-subtitle h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+    color: #fff;
+}
+}
+
